@@ -8,7 +8,7 @@ Miniature schema validator for Typescript (with type guards)
 ## Usage
 
 ```typescript
-import minischema from 'wee-schema'
+import { weeschema, WeeSchema } from 'wee-schema'
 
 interface MyType {
   foo: string
@@ -17,7 +17,7 @@ interface MyType {
 
 // === Create the schema
 
-const schema<MyType> = minischema<MyType>({
+const schema : WeeSchema<MyType> = weeschema<MyType>({
   'foo': ['string'],
   'bar': ['number', 'string']
 })

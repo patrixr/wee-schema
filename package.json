@@ -1,6 +1,6 @@
 {
   "name": "wee-schema",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Miniature schema assertion for typescript (with typeguards)",
   "main": "dist/index.js",
   "scripts": {
