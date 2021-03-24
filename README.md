@@ -2,8 +2,10 @@
 
 ![](https://github.com/patrixr/wee-schema/workflows/Test%20and%20Publish/badge.svg)
 
-Miniature schema validator for Typescript (with type guards)
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
 
+Miniature schema validator for Typescript (with type guards)
 
 ## Usage
 
