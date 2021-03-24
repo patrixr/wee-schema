@@ -1,0 +1,41 @@
+{
+  "name": "wee-schema",
+  "version": "0.0.2",
+  "description": "Miniature schema assertion for typescript (with typeguards)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrixr/wee-schema.git"
+  },
+  "keywords": [
+    "schema",
+    "types",
+    "typescript",
+    "guards",
+    "assertion"
+  ],
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "author": "Patrick R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrixr/wee-schema/issues"
+  },
+  "homepage": "https://github.com/patrixr/wee-schema#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
